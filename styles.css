@@ -1,14 +1,14 @@
-.Navbar {
+body {
+    display: grid;
+    grid-template-rows: 15% 25% 50% 10%;
+  }
+  .Navbar {
     display: flex;
-    background-color:lightgrey;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-}
-.Navbar > li {
-    width: max-content;
+    flex-direction: row;
+    justify-content: space-between;
     list-style: none;
-    padding: 20px;
-    }
+    font-size: 150%;
+}
 .List {
     float: left;
     width: 50%;
@@ -19,6 +19,15 @@
     max-width: 100%;
 }
 .List-2 {
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    max-width: 100%;
+}
+.Image-Content {
     float: left;
     width: 50%;
     display: flex;
@@ -27,3 +36,13 @@
     overflow: auto;
     max-width: 100%;
 }
+.Video-Content {
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    max-width: 100%;
+}
+
