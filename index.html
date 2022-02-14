@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+<head>
     <link rel="stylesheet" href="styles.css">
-    </head>
-    <header>
-      Welcome To My About Me Page!
-    </header>
-    <body>
-      <div class="page-grid">
-                <h1>Introduction</h1>
-                  <p> Hello My Name is Caleb Keck, I am currently finishing up my degree at Cuyahoga Community College. <br>
+    <title>About Me Page</title>
+</head>
+<body>
+    <div class="Page-Grid">
+        <!-- Navigation Bar with Page Links -->   
+            <div class="Navbar">
+                    <li><a href ="index.html">About Me</a></li>
+                    <li><a href="page2.html">Socials</a></li>
+            </div>
+        <!-- Navigation Bar with Page Links -->
+
+        <!-- Introduction Content-->
+            <div class="Intro"> 
+                <h1 style="font-size: 34px;font-style: italic;color: blue;text-align: center;">Introduction</h1>
+                    <p>Hello My Name is Caleb Keck, I am currently finishing up my degree at Cuyahoga Community College. <br>
                       I recently accepted a Web Developer Job in Columbus, Ohio and am looking forward to growing my skills there as well as in the internship here! <br></p>
-                <h2>Hobbies</h2>
-                  <p>In my spare time, I enjoy the following things: </p>
-                  <ul>
-                    <li>Working out</li>
-                    <li>Playing PC</li>
-                    <li>Snowboarding</li>
-                    <li>Riding Motorcycles</li>
-                    <li>Working on Cars</li>
-                  </ul>
-                  <h2>Related Experience</h2>
-                  <ul>
-                    <li>Web Developer - World Harvest Church - Present</li>
-                    <li>Web Developer - NCompas Business Solutions Inc. - Present</li>
-                    <li> IT - Programming and Developement - Graduating May 2022</li>
-                    <li>Web Developer - Surface Materials - Fall 2021</li>
-                  </ul>
-        <section class="media">
-          <div class="container">
-              <h2 style="text-align:center">Interesting Pictures</h2>
-                <div class="left-column">
-                  <div class="card">
-                    <img src="images/WorkoutPic.JPG" alt="Gym" style="width:100%">
-                    <div class="container">
-                      <h2>Chest and Shoulder Pump</h2>
-                      <p>This was taken a few weeks ago during one of my workouts!</p>
-                    </div>
-                  </div>
-                </div>  
-              <div class="right-column">
-                <div class="card">
-                  <div class="youtube-video">
+                <div class="List">
+                    <h2>Hobbies</h2>
+                        <ul>
+                            <li>Working out</li>
+                            <li>Playing PC</li>
+                            <li>Snowboarding</li>
+                            <li>Riding Motorcycles</li>
+                            <li>Working on Cars</li>
+                        </ul>
+                </div>
+                <div class="List-2">
+                    <h2>Related Experience</h2>
+                        <ul>
+                            <li>Web Developer - World Harvest Church - Present</li>
+                            <li>Web Developer - NCompas Business Solutions Inc. - Present</li>
+                            <li> IT - Programming and Developement - Graduating May 2022</li>
+                            <li>Web Developer - Surface Materials - Fall 2021</li>
+                        </ul>
+                </div>
+            </div>
+        <!-- Introduction Content-->
+
+        <!-- Body Content-->
+            <div class="Body">
+
+                <div id="image-title-1">
+                    <h2>Chest and Shoulder Pump</h2>
+                </div>
+
+                <div id="image-1">
+                    <img src="images/WorkoutPic.jpg" alt="Gym" style="max-width: 200px;">
+                </div>
+
+                <div id="image-discription-1">
+                    <p>This was taken a few weeks ago during one of my workouts!</p>
+                </div>
+
+                <div id="video-title-1">
+                    <h2>My Streaming Glory Days</h2>
+                </div>
+
+                <div id="video-1">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/oqkUABCxRtA" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-                  <div class="container">
-                    <h2>My Streaming Glory Days</h2>
-                    <p>Back when Valorant was just released!</p>
-                  </div>
                 </div>
-              </div>
-          </div>
-        </section>
-      </div>
-    </body>
-  <footer>
 
-  </footer>
+                <div id="video-discription-1">
+                    <p>Back when Valorant was just released!</p>
+                </div>
+            </div>
+        <!-- Body Content-->
+        <div id="button"><button><a href="page2.html">Socials</a></button></div>
+
+        <!-- Footer/Copyright-->
+            <div id="Footer">
+                <p id="Footer-Para"> Copyright 1998-2022 by Caleb Keck. All Rights Reserved.</p>
+            </div>
+        <!-- Footer/Copyright-->
+    </div>
+</body>
 </html>
