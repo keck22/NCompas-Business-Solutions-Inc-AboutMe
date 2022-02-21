@@ -1,13 +1,32 @@
 body {
     display: grid;
     grid-template-rows: 15% 25% 50% 10%;
-  }
-  .Navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 150%;
+    background-color: lightgrey;
+}
+h2 {
+    color: red;
+}
+li {
+    font-weight: bold;
+    font-size: 20px;
+}
+.Navbar {
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, black, white);
+    font-family: Arial;
+    border-right: red solid 3px;
+    width: 100%;
+}
+.Navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.Navbar a:hover {
+    background-color: red;
 }
 .List {
     float: left;
@@ -45,4 +64,3 @@ body {
     overflow: auto;
     max-width: 100%;
 }
-
