@@ -1,16 +1,15 @@
 body {
-    display: grid;
-    grid-template-rows: 15% 25% 50% 10%;
     background-color: lightgrey;
 }
-h2 {
-    color: red;
-}
-li {
+.Page-Content li {
     font-weight: bold;
     font-size: 20px;
 }
+.Page-Content h2 {
+   color: red
+}
 .Navbar {
+    margin-top: 10px;
     overflow: hidden;
     background-image: linear-gradient(to bottom right, black, white);
     font-family: Arial;
@@ -27,6 +26,13 @@ li {
 }
 .Navbar a:hover {
     background-color: red;
+}
+.Intro-Title {
+    text-align: center;
+    color: red;
+}
+p.Para-1 {
+    text-align: left;
 }
 .List {
     float: left;
@@ -63,4 +69,11 @@ li {
     align-items: center;
     overflow: auto;
     max-width: 100%;
+}
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
 }
